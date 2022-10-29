@@ -4,17 +4,16 @@ define o = Character("Dr. Octopun")
 label start:
 
     scene shipwreck
-    f "I've found the famous shipwreck near Miami"
-    f "It's my lifelong dream. I really did it. Billy the Marlin will be sooo jealous" #animate "sooo" if possible
+    f "I've finally found the famous shipwreck near Miami"
+    f "It's my lifelong dream. I really did it. Billy the Marlin will be soooo jealous" #animate "sooo" if possible
     "..."
     scene shipwreck with hpunch 
     scene shipwreck with vpunch
   
     scene morsecodecave with vpunch
-    f "Ouch, I fell through the bottom ):<"
-    f "A huge rock blocked my path out of here. I should find an exit"
+    f "AGH! A huge rock just blocked my path out of here. I should find an exit before it gets too dark."
     f "Those are weird scratches... What kind of animal could've done that?"
-    f "Let's keep moving, Finn. I think there's an entrance here, maybe i'll find treasure!"
+    f "Let's keep moving, Finn. I think there's an entrance here, maybe I'll find treasure!"
    # //scene morsecodecave with ?? something to make it beat or pulse
    # f "I feel like the walls are closing in. Am I suffocating?"
     
